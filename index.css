@@ -1,0 +1,234 @@
+body {
+    font-family: "Open Sans";
+}
+
+a {
+    text-decoration: none;
+    color: #1d1d1b;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+.header__container {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+.header__top-box {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin: 0 auto;
+    height: 36px;
+    align-items: center;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #1d1d1b;
+}
+
+.header__link {
+    border: 0;
+    margin-right: 24px;
+    background-color: transparent;
+    outline: 0;
+    text-decoration: 0;
+    color: #1d1d1b;
+}
+
+.header__paps-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #1d1d1b;
+    margin: 0 100px 0 12px;
+    text-decoration: 0;
+    color: #1d1d1b;
+}
+
+.header__telefon {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #1d1d1b;
+    margin-right: 20px;
+}
+
+.header__button {
+    display: flex;
+    width: 136px;
+    height: 48px;
+    border: 0;
+    background-color: #e0001b;
+    align-items: center;
+    border-radius: 3px 0 0 3px;
+}
+
+.header__button-img {
+    margin-left: 10px;
+}
+
+.header__button-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #ffffff;
+    margin: 0 0 0 16px;
+}
+
+.header__bottom-box {
+    display: flex;
+}
+
+.header__bottom-links {
+    display: flex;
+    background-color: #f8f8f8;
+    width: 197px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: center;
+}
+.header__bottom-links:hover {
+    background-color: #e0dada;
+}
+
+.header__bottom-links:first-of-type {
+    padding: 0 16px 0 24px;
+}
+
+.header__bottom-link {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #1d1d1b;
+    margin: 0;
+    text-decoration: none;
+    color: #1d1d1b;
+}
+
+.header__bottom-link_red {
+    color: #e0001b;
+}
+
+.header__bottom-icon {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+/*medium*/
+.header__logo {
+    width: 136px;
+    height: 48px;
+}
+.header__form {
+    position: relative;
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.search-field-form {
+    height: 48px;
+    width: 412px;
+    outline: 0;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.header__search-button-form {
+    background-image: url(./images/lupa.svg);
+    width: 56px;
+    height: 48.5px;
+    background-color: #e0001b;
+    border: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 0;
+    top: -0.5px;
+    border-radius: 0 3px 3px 0;
+}
+
+.header__baskets {
+    display: flex;
+}
+
+.header__basket {
+    height: 48px;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 16px;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+}
+
+.header__basket:hover {
+    background-color: #e0dada;
+}
+
+.header__basket-img {
+    width: 24px;
+    height: 19.63px;
+    margin-right: 12px;
+}
+
+.header__basket-text {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    margin-right: 15px;
+    color: #1d1d1b;
+    text-decoration: none;
+}
+
+.header__notification-container {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.header__number {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 1px 6px;
+    border-radius: 50%;
+    background: #e0001b;
+    color: #ffffff;
+}
+
+.header__medium-box {
+    display: flex;
+    margin: 34px 0 28px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__top-box-container {
+    background-color: #f8f8f8;
+}
